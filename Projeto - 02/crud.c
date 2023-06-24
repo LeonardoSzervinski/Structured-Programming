@@ -123,7 +123,7 @@ int AdicionarUsuario()
 
     if (numUsuarios >= MAX_USUARIOS)
     {
-        printf("Numero de usuarios alcançou o limite D:\n");
+        printf("Limite de usuarios atingidos!\n");
         return -1;
     }
 
